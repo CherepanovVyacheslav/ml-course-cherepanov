@@ -7,7 +7,7 @@
 | # | Модуль | Тема | Статус | Ссылка |
 |---|--------|------|--------|--------|
 | 1 | module-1-titanic | EDA + бинарная классификация | ✅ Готово |
-[Открыть](./module-1-titanic/) |
+(https://github.com/CherepanovVyacheslav/ml-course-cherepanov/tree/main/module-1-titanic) |
 | 2 | module-2-... | ... | ⏳ В работе | — |
 | 3 | module-3-... | ... | ⏳ Ожидается | — |
 | 4 | module-4-... | ... | ⏳ Ожидается | — |
