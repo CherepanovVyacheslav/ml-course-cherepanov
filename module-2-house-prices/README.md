@@ -14,10 +14,6 @@
 | ElasticNet | 0.1191 | 0.0821 | 0.9239 | 21,394 | 4.610 |
 | Random Forest (bonus) | 0.1434 | 0.0939 | 0.8898 | 27,973 | 0.588 |
 
-## Запуск
-
-Установить зависимости: `pip install -r requirements.txt`, открыть `notebook.ipynb` и выполнить все ячейки из `module-2-house-prices/`.
-
 ## Состав
 
 `data/` — исходные таблицы; `models/` — модели, scaler и метаданные; `examples/` — графики; `notebook.ipynb` — отчёт.
