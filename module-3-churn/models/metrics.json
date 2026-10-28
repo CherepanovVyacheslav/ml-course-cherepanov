@@ -1,0 +1,63 @@
+{
+  "dataset": "Telco Customer Churn",
+  "n_rows": 7043,
+  "random_state": 42,
+  "n_trials": 30,
+  "test_size": 1409,
+  "models": {
+    "Random Forest": {
+      "Accuracy": 0.7643718949609652,
+      "Precision": 0.5400763358778626,
+      "Recall": 0.7566844919786097,
+      "F1": 0.6302895322939867,
+      "ROC-AUC": 0.8387248443514428,
+      "Train sec": 0.3348674001172185
+    },
+    "XGBoost": {
+      "Accuracy": 0.7714691270404542,
+      "Precision": 0.5537190082644629,
+      "Recall": 0.7165775401069518,
+      "F1": 0.6247086247086248,
+      "ROC-AUC": 0.8291637603658064,
+      "Train sec": 0.21102649997919798
+    },
+    "LightGBM": {
+      "Accuracy": 0.7579843860894251,
+      "Precision": 0.5315487571701721,
+      "Recall": 0.7433155080213903,
+      "F1": 0.6198439241917503,
+      "ROC-AUC": 0.8368428530832622,
+      "Train sec": 0.1191188998054713
+    },
+    "CatBoost": {
+      "Accuracy": 0.7565649396735273,
+      "Precision": 0.5291902071563088,
+      "Recall": 0.7513368983957219,
+      "F1": 0.6209944751381216,
+      "ROC-AUC": 0.8404337492572787,
+      "Train sec": 0.5694060998503119
+    },
+    "LightGBM (Optuna)": {
+      "Accuracy": 0.7409510290986515,
+      "Precision": 0.5076400679117148,
+      "Recall": 0.7994652406417112,
+      "F1": 0.6209761163032191,
+      "ROC-AUC": 0.8479255470304063,
+      "Train sec": 0.17188229993917048
+    }
+  },
+  "optuna_best_cv_roc_auc": 0.8493831325626504,
+  "optuna_best_params": {
+    "n_estimators": 350,
+    "num_leaves": 90,
+    "max_depth": 3,
+    "learning_rate": 0.022943298923083385,
+    "subsample": 0.6236369825139823,
+    "colsample_bytree": 0.5164731483152039,
+    "min_child_samples": 35,
+    "reg_alpha": 0.002886956542416407,
+    "reg_lambda": 7.328751913955659
+  },
+  "optuna_tuning_time_sec": 27.87661170004867,
+  "saved_best_model": "LightGBM (Optuna)"
+}
