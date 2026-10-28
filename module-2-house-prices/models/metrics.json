@@ -1,0 +1,83 @@
+{
+  "training_date": "2026-10-28",
+  "best_model": "ElasticNet",
+  "validation_size": 292,
+  "training_size_after_outliers": 1166,
+  "metrics": {
+    "Linear Regression": {
+      "model": "Linear Regression",
+      "mse_log": 0.015176007847019387,
+      "rmse_log": 0.12319094060449164,
+      "mae_log": 0.08725330710348936,
+      "r2_log": 0.9186757009232659,
+      "rmse_real": 22366.920527316426,
+      "mae_real": 14988.721892229843,
+      "r2_real": 0.9347773327545672,
+      "train_time_sec": 0.34460830013267696,
+      "cv_rmse_log": null,
+      "params": {}
+    },
+    "Ridge": {
+      "model": "Ridge",
+      "mse_log": 0.014810321427589503,
+      "rmse_log": 0.1216976640186224,
+      "mae_log": 0.08585916054965616,
+      "r2_log": 0.9206353198192101,
+      "rmse_real": 22044.137336495856,
+      "mae_real": 14769.083983564771,
+      "r2_real": 0.9366462419218939,
+      "train_time_sec": 1.1376259000971913,
+      "cv_rmse_log": 0.11980166698730647,
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    "Lasso": {
+      "model": "Lasso",
+      "mse_log": 0.01455985305016494,
+      "rmse_log": 0.12066421611300071,
+      "mae_log": 0.0826469103831843,
+      "r2_log": 0.9219775150421086,
+      "rmse_real": 21825.07289794429,
+      "mae_real": 14227.437229050964,
+      "r2_real": 0.9378991461205058,
+      "train_time_sec": 2.658037999877706,
+      "cv_rmse_log": 0.11190636336961762,
+      "params": {
+        "alpha": 0.005
+      }
+    },
+    "ElasticNet": {
+      "model": "ElasticNet",
+      "mse_log": 0.014195256853703294,
+      "rmse_log": 0.11914384941617126,
+      "mae_log": 0.08214603780957257,
+      "r2_log": 0.9239312917152743,
+      "rmse_real": 21394.265210111058,
+      "mae_real": 14075.362265837257,
+      "r2_real": 0.940326581749328,
+      "train_time_sec": 4.609658299945295,
+      "cv_rmse_log": 0.11357138624111318,
+      "params": {
+        "alpha": 0.003,
+        "l1_ratio": 0.8
+      }
+    },
+    "Random Forest (bonus)": {
+      "model": "Random Forest (bonus)",
+      "mse_log": 0.020562820829268937,
+      "rmse_log": 0.1433974226730346,
+      "mae_log": 0.09387587819239017,
+      "r2_log": 0.8898091640543531,
+      "rmse_real": 27972.88156394024,
+      "mae_real": 16640.536323418273,
+      "r2_real": 0.8979858115738235,
+      "train_time_sec": 0.5876460999716073,
+      "cv_rmse_log": null,
+      "params": {
+        "n_estimators": 180,
+        "min_samples_leaf": 2
+      }
+    }
+  }
+}
